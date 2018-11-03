@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var Database = require('../models/database')
-
-var database = new Database();
+var database = require('../models/databaseConnection')
 
 
 //get users
